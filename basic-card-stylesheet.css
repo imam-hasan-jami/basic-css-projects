@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(22, 20, 24);
+  color: #eee;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  user-select: none;
+  max-width: 300px;
+  margin: 250px auto;
+  border: 1px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(
+    0deg,
+    rgba(40, 44, 52, 1) 0%,
+    rgba(17, 0, 32, 0.5) 100%
+  );
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #88888855;
+  margin-top: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 1rem;
+}
+
+.mainImage {
+  border-radius: 0.5rem;
+  max-width: 270px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  margin: 0.5rem 0;
+  color: #a89ec9;
+}
+
+.mobileInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  color: #c79b5a;
+  font-weight: 700;
+}
+
+.stock {
+  display: flex;
+  align-items: center;
+  color: #a89ec9;
+  margin-right: 0.2rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-buy {
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background-color: #c79b5a;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.btn-buy:hover {
+  background-color: #725831;
+}
+
+.btn-cart {
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background-color: #c79b5a;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.btn-cart:hover {
+    background-color: #725831;
+  }
